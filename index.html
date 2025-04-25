@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tareas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   
+    <div class="container"> 
+    <h1>Lista de Tareas</h1>
+    <input type="text" id="inputTarea" placeholder="Añadir nueva tarea">
+        <select id="tipoTarea">
+            <option value="opcional">🟢Opcional</option>
+            <option value="obligatorio">🔵Obligatorio</option>
+            <option value="urgente">🔴Urgente</option>
+        </select>
+    <p id="error"></p>
+    <button id="buttonAdd">Añadir</button>
+    <div>
+    <p>
+        🟢Opcional 🔵Obligatorio 🔴Urgente
+    </p>
+    </div>
+    <ul id="listaTareas">
+
+    </ul>
+</div>
+<script src="js/ejer.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    max-width: 1000px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 3rem;
+    
+    box-shadow: 0 2px 5px rgb(20, 0, 0);
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+}
+
+input[type="text"]{
+    width:70%;
+    padding: 0.5rem;
+    }
+
+button{
+    padding: 8px 15px;
+    background-color: green;
+    color: bisque;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ul{
+    list-style:  none;
+    text-align: center;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(166, 209, 166);
+    margin: 1rem;
+    padding: 1rem;
+}
+/* select::after {
+    content: "U+2764";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 1em;} */ 
+    /* queria ponerle, en vez de una flecha un corazon, y he copiado este codigo de internet*/
+
+    select{
+        padding: 0.5rem;
+        margin:0.5rem;
+
+    }
