@@ -6,7 +6,7 @@
 document.getElementById("buttonAdd").addEventListener("click", crearTarea);
 function crearTarea(){
     //Leer los datos del input
-    let textotarea = document.getElementById("inputTarea").value;
+    let textotarea = document.getElementById("inputTarea").value;//para que cuando pongamos una tarea se mande de verdad y tenga un valor.(value es para asignarle valor y solo sirve para los formularios.<input><textarea><select>
     let tipoTarea= document.getElementById("tipoTarea").value;//para que cuando diga urgente opcional obligatorio tenga un valor de verdad
     //color
     const colorUrgente="rgb(228, 10, 10) ";// f1--color picket
@@ -19,7 +19,7 @@ function crearTarea(){
         //mostrar mensaje
         document.getElementById("error").textContent= "No has introducido ninguna tarea"
         return;
-    }
+    }else if(textotarea!==""){document.getElementById("error").style.display="none";} //también puedo poner en vez de esto, else{y dentro lo mismo}
     
     const tarea={
         texto: textotarea,
